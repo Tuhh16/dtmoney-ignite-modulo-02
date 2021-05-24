@@ -26,7 +26,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-<p>O projeto é uma aplicação de controle de finanças onde podemos registrar entradas e saídas da nossa conta, no painel aparece o total de entradas, saídas e o total atual na conta além do historico de transações.</p>
+<p>O projeto é uma aplicação de controle de finanças onde podemos registrar entradas e saídas da nossa conta, no painel aparece o total de entradas, saídas e o total atual na conta além do histórico de transações.</p>
 <p>Para desenvolver essa aplicação foi utilizado algumas bibliotecas como styled components e para lidar com toda a logica usamos a Context API do React.</p>
 <p>E por ultimo, usamos o Mirage JS para criar uma API de teste onde cadastramos e listamos todas as transações.</p>
 
