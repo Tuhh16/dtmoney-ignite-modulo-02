@@ -76,7 +76,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[ReactJs](https://pt-br.reactjs.org/)**
 -   **[TypeScript](https://www.typescriptlang.org/)**
 
-> Veja o arquivo  [package.json](https://github.com/Tuhh16/desafio-02-trilha-reactjs/blob/master/package.json)
+> Veja o arquivo  [package.json](https://github.com/Tuhh16/dtmoney-ignite-modulo-02/blob/master/package.json)
 
 ---
 
