@@ -8,7 +8,7 @@ import { Container } from './styles';
 export function Summary() {
     const { transactions } = useTransactions();
 
-    const sumary = transactions.reduce((acc, transaction) => {
+    const summary = transactions.reduce((acc, transaction) => {
         if(transaction.type === 'deposit'){
             acc.deposits += transaction.amount;
             acc.total += transaction.amount;
@@ -34,7 +34,7 @@ export function Summary() {
                     {new Intl.NumberFormat('pt-BR', {
                         style: 'currency',
                         currency: 'BRL'
-                    }).format(sumary.deposits)}
+                    }).format(summary.deposits)}
                 </strong>
             </div>
             <div>
@@ -46,7 +46,7 @@ export function Summary() {
                     {new Intl.NumberFormat('pt-BR', {
                         style: 'currency',
                         currency: 'BRL'
-                    }).format(sumary.withdraws)}
+                    }).format(summary.withdraws)}
                 </strong>
             </div>
             <div className="highlight-background">
@@ -58,7 +58,7 @@ export function Summary() {
                     {new Intl.NumberFormat('pt-BR', {
                         style: 'currency',
                         currency: 'BRL'
-                    }).format(sumary.total)}
+                    }).format(summary.total)}
                 </strong>
             </div>
         </Container>

@@ -12,7 +12,7 @@ interface Transaction {
 
 type TransactionInput = Omit<Transaction, 'id' | 'createdAt'>;
 
-interface TransactionsProdiverProps {
+interface TransactionsProviderProps {
     children: ReactNode;
 }
 
@@ -27,7 +27,7 @@ export const TransactionsContext = createContext<TransactionContextData>(
     {} as TransactionContextData
 );
 
-export function TransactionsProdiver({ children }: TransactionsProdiverProps) {
+export function TransactionsProvider({ children }: TransactionsProviderProps) {
     const [transactions, setTransactions] = useState<Transaction[]>([]);
 
     useEffect(() => {
