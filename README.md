@@ -110,4 +110,4 @@ The following tools were used in the project's construction:
 
 This project is under the license [MIT](./LICENSE).
 
-Made by Arthur Teodoro Alves de Lima 👋🏽 [Get in touch!](https://www.linkedin.com/in/arthurtlima/?locale=en_US)
+Made by Arthur Teodoro Alves de Lima 👋🏽 [Get in touch!](https://www.linkedin.com/in/arthurtlima/)
