@@ -12,7 +12,7 @@
 	🚧 Completed 🚀 🚧
 </h4>
 
-Tabela de conteúdos
+Table of Contents
 =================
 <!--ts-->
    * [About the project](#-about-the-project)
