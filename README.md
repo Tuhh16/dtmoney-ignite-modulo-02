@@ -4,84 +4,110 @@
      <img title="Icone dt money" src="./public/favicon.png" width="40" height="40" alt="Icone dt money"> dt money
 </h1>
 
-<p align="center">  
- dt money é uma aplicação que foi desenvolvida durante o segundo modulo do Ignite da <a href="https://rocketseat.com.br/">Rocketseat</a>
+<p align="center"> 
+ dt money is an application that was developed during the second module of <a href="https://rocketseat.com.br/">Rocketseat's</a> Ignite program.
 </p>
 
 <h4 align="center">
-	🚧 Concluído 🚀 🚧
+	🚧 Completed 🚀 🚧
 </h4>
 
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre o projeto](#-sobre-o-projeto)
+   * [About the project](#-about-the-project)
    * [Layout](#-layout)
      * [Web](#web)
-   * [Como executar o projeto](#-como-executar-o-projeto)
-   * [Tecnologias](#-tecnologias)
-   * [Licença](#user-content--licença)
+     * [Mobile](#mobile)
+   * [Video](#-video)
+   * [How to run the project](#-how-to-run-the-project)
+   * [Technologies](#-technologies)
+   * [License](#user-content--licença)
 <!--te-->
 
 
-## 💻 Sobre o projeto
+## 💻 About the project
 
-<p>O projeto é uma aplicação de controle de finanças onde podemos registrar entradas e saídas da nossa conta, no painel aparece o total de entradas, saídas e o total atual na conta além do histórico de transações.</p>
-<p>Para desenvolver essa aplicação foi utilizado algumas bibliotecas como styled components e para lidar com toda a logica usamos a Context API do React.</p>
-<p>E por ultimo, usamos o Mirage JS para criar uma API de teste onde cadastramos e listamos todas as transações.</p>
+<p>The project is a financial control application where we can record income and expenses in our account. The dashboard displays the total income, expenses, and the current account balance, along with a transaction history.</p>
+<p>To develop this application, we used some libraries such as styled-components and for handling all the logic, we utilized React's Context API.</p>
+<p>Finally, we employed Mirage JS to create a test API where we can register and list all transactions.</p>
 
 ## 🎨 Layout
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img title="Preview da página da aplicação" src="./public/screenshot/preview-dashboard.jpg" width="400px" alt="Preview da página da aplicação">
-  <img title="Preview do modal de cadastro de transação" src="./public/screenshot/preview-modal.jpg" width="400px" alt="Preview do modal de cadastro de transação">
+  <img title="The application page preview" src="./public/screenshot/web-01.png" width="400px" alt="The application page preview">
+  <img title="Transaction registration modal preview" src="./public/screenshot/web-02.png" width="400px" alt="Transaction registration modal preview">
 </p>
 
-## 🚀 Como executar o projeto
+### Mobile
 
-### Pré-requisitos
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img title="The application page preview" src="./public/screenshot/mobile-01.png" width="400px" alt="The application page preview">
+  <img title="Transaction registration modal preview" src="./public/screenshot/mobile-02.png" width="400px" alt="Transaction registration modal preview">
+  <img title="Preview of the bottom part of the application" src="./public/screenshot/mobile-03.png" width="400px" alt="Preview of the bottom part of the application">
+  <img title="Preview of the table with horizontal scrolling to the end." src="./public/screenshot/mobile-04.png" width="400px" alt="Preview of the table with horizontal scrolling to the end">
+</p>
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+## 📹 Video
+
+https://github.com/arthurtlima/ignite-modulo-2-dtmoney/assets/12513621/53026a09-4c6c-4a9b-94e8-a37606f26bac
+
+## 🚀 How to run the project
+
+### Prerequisites
+
+Before you begin, you will need to have the following tools installed on your machine:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Additionally, it's good to have an editor for working with the code, such as [VSCode](https://code.visualstudio.com/)
 
 #### Rodando a aplicação web (Frontend)
 
+
+
 ```bash
 
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/Tuhh16/dtmoney-ignite-modulo-02.git
 
-# Acesse a pasta do projeto no seu terminal/cmd
+# Access the project folder in your terminal/cmd.
 $ cd dtmoney-ignite-modulo-02
 
-# Instale as dependências
+# Install the dependencies
 $ yarn install
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development mode.
 $ yarn start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The project will be opened at port 3000 - access http://localhost:3000
 
 ```
 
 ---
 
-## 🛠 Tecnologias
+### 💻 Commands
 
-As seguintes ferramentas foram usadas na construção do projeto:
+- `start`: runs your application on `localhost:3000`
+- `build`: creates the production build version
+- `test`: runs jest to test all components and pages
+- `eject`: removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
+
+## 🛠 Technologies
+
+The following tools were used in the project's construction:
 
 -   **[ReactJs](https://pt-br.reactjs.org/)**
 -   **[TypeScript](https://www.typescriptlang.org/)**
+-   **[Styled Components](https://styled-components.com/)**
+-   **[Mirage JS](https://miragejs.com/)**
 
-> Veja o arquivo  [package.json](https://github.com/Tuhh16/dtmoney-ignite-modulo-02/blob/master/package.json)
+> See the file  [package.json](https://github.com/Tuhh16/dtmoney-ignite-modulo-02/blob/master/package.json)
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+This project is under the license [MIT](./LICENSE).
 
-Feito por Arthur Teodoro Alves de Lima 👋🏽 [Entre em contato!](https://www.linkedin.com/in/arthur-lima-reactjs/)
+Made by Arthur Teodoro Alves de Lima 👋🏽 [Get in touch!](https://www.linkedin.com/in/arthurtlima/?locale=en_US)
