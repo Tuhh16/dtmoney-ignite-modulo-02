@@ -102,7 +102,7 @@ The following tools were used in the project's construction:
 -   **[Styled Components](https://styled-components.com/)**
 -   **[Mirage JS](https://miragejs.com/)**
 
-> See the file  [package.json](https://github.com/Tuhh16/dtmoney-ignite-modulo-02/blob/master/package.json)
+> See the file  [package.json](https://github.com/arthurtlima/ignite-modulo-2-dtmoney/blob/main/package.json)
 
 ---
 
