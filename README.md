@@ -62,7 +62,7 @@ Before you begin, you will need to have the following tools installed on your ma
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Additionally, it's good to have an editor for working with the code, such as [VSCode](https://code.visualstudio.com/)
 
-#### Rodando a aplicação web (Frontend)
+#### Running the web application (Frontend)
 
 
 
