@@ -69,7 +69,7 @@ Additionally, it's good to have an editor for working with the code, such as [VS
 ```bash
 
 # Clone this repository
-$ git clone https://github.com/Tuhh16/dtmoney-ignite-modulo-02.git
+$ git clone https://github.com/arthurtlima/dtmoney-ignite-modulo-02.git
 
 # Access the project folder in your terminal/cmd.
 $ cd dtmoney-ignite-modulo-02
