@@ -62,29 +62,19 @@ Before you begin, you will need to have the following tools installed on your ma
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Additionally, it's good to have an editor for working with the code, such as [VSCode](https://code.visualstudio.com/)
 
-#### Running the web application (Frontend)
-
-
-
-```bash
-
-# Clone this repository
-$ git clone https://github.com/arthurtlima/dtmoney-ignite-modulo-02.git
-
-# Access the project folder in your terminal/cmd.
-$ cd dtmoney-ignite-modulo-02
-
-# Install the dependencies
-$ yarn install
-
-# Run the application in development mode.
-$ yarn start
-
-# The project will be opened at port 3000 - access http://localhost:3000
+After cloning this project, install the dependencies:
 
 ```
+yarn install
+```
 
----
+And run using:
+
+```
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### 💻 Commands
 
@@ -101,10 +91,6 @@ The following tools were used in the project's construction:
 -   **[TypeScript](https://www.typescriptlang.org/)**
 -   **[Styled Components](https://styled-components.com/)**
 -   **[Mirage JS](https://miragejs.com/)**
-
-> See the file  [package.json](https://github.com/arthurtlima/ignite-modulo-2-dtmoney/blob/main/package.json)
-
----
 
 ## 📝 License
 
